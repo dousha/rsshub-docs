@@ -20,7 +20,8 @@ The file should return an object that conforms to the Namespace type through a n
 
 - name: The human-readable name of the namespace, which will be used as the title of the document
 - url: The website URL without protocol that corresponds
-- description: Optional, hints and additional explanations for users using this namespace, it will be inserted into the document
+- description: Optional, hints and additional explanations for users using this namespace, it will be inserted into the document.
+  Multi-line descriptions should have no additional indentation. Each line should start with no leading whitespace as demonstrated in the example below.
 - zh, zh-TW, ja: optional, support for languages other than English, it will be used to generate multilingual documents
 
 Here is a complete example:
